@@ -52,7 +52,7 @@ class EditorTemplate extends Component {
                     <div className={cx('pane','editor')}>
                         {editor}
                     </div>
-                    <div className={cx('pane','review')}>
+                    <div className={cx('pane','preview')}>
                         {preview}
                     </div>
                     <div
