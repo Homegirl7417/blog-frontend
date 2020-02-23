@@ -17,7 +17,7 @@ const Header = ({postId, onRemove}) => (
           //flex 유지를 위해 배열 형태로 렌더링하기.
           postId && [
             <Button key="edit" theme="outline" to={`/editor?id=${postId}`}>수정</Button>,
-            <Button key="remove" theme="outline" to={onRemove}>삭제</Button>
+            <Button key="remove" theme="outline" onClick={onRemove}>삭제</Button>
           ]
         }
         <Button theme="outline" to="/editor">새 포스트</Button>
